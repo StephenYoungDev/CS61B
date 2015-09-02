@@ -25,9 +25,8 @@ class Dog {
 
 	// now loop through the array and tell all dogs to bark.
 	// Arrays have a variable 'length' that gives you the number of elements in the array.
-	while(int x < myDogs.length) {
+	for(int x = 0; x < myDogs.length; x++) {
 	    myDogs[x].bark();
-	    x++;
 	}
     }
 
@@ -39,3 +38,4 @@ class Dog {
 
     public void chaseCat() { }
 }
+
