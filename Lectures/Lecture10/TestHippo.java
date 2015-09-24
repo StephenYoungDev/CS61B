@@ -4,3 +4,4 @@ public class TestHippo {
 	Hippo h = new Hippo();
     }
 }
+// HFJ_p252
