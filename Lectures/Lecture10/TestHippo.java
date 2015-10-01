@@ -4,4 +4,4 @@ public class TestHippo {
 	Hippo h = new Hippo();
     }
 }
-// HFJ_p252
+// HFJ_p252, constructor chaining process.
