@@ -1,4 +1,3 @@
-package lab02;
 /** @author Stephen Young
  *  @author S&S
  *  @version 1.0
@@ -13,8 +12,7 @@ import java.io.*;
 class Fraction {
 
   /* private fields within a Fraction. */
-  private static int numberOfFractions = 0;				// Static variable for object counting, every time a Fraction object is created, the count will increment by 1.				
-  										// Static fields are shared by all instances of a class, thus a local copy of the field won't be created for each of the instances you create.
+  private static int numberOfFractions = 0;   // Static variable for object counting, every time a Fraction object is created, the count will increment by 1.		      // Static fields are shared by all instances of a class, thus a local copy of the field won't be created for each of the instances you create.
   private int numerator;
   private int denominator;
 
@@ -31,13 +29,12 @@ class Fraction {
       System.out.println("Fatal error:  Nonpositive denominator.");
       System.exit(0);
     }
-    numberOfFractions++;
-//    System.out.println("Current Number Of Fractions: " + numberOfFractions);						
+    numberOfFractions++;					
     numerator = n; 
     denominator = d;
   }
 
-  /** Constructs a Fraction n/1. 
+  /** Constructs a Fraction n/1.
    *  @param n is the numerator.  Must be nonnegative.
    */
   public Fraction(int n) {
@@ -180,3 +177,4 @@ class Fraction {
     System.out.println("The gcd of 21 and 400 is: " + gcd(21, 400));
   }
 }
+
